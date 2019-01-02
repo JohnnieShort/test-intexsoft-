@@ -51,7 +51,7 @@ public class Test {
 				}
 			}
 			
-			System.out.println("Please choose");
+			System.out.println("Please, choose");
 		}
 		
 	}
