@@ -3,7 +3,7 @@ package home.vanusha.intexsoft.test.menu.impls;
 import home.vanusha.intexsoft.test.menu.interfaces.ICommand;
 import home.vanusha.intexsoft.test.utils.Utils;
 
-public class PersonalWiever implements ICommand {
+public class PersonalViewerImpl implements ICommand {
 
 	@Override
 	public void execute() {

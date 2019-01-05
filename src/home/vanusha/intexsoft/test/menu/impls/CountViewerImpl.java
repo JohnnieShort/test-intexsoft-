@@ -6,7 +6,7 @@ import home.vanusha.intexsoft.test.entities.Worker;
 import home.vanusha.intexsoft.test.menu.interfaces.ICommand;
 import home.vanusha.intexsoft.test.utils.Utils;
 
-public class CountWiever implements ICommand{
+public class CountViewerImpl implements ICommand{
 
 	@Override
 	public void execute() {

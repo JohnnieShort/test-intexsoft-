@@ -3,13 +3,13 @@ package home.vanusha.intexsoft.test;
 import java.util.ArrayList;
 import java.util.List;
 
-import home.vanusha.intexsoft.test.menu.impls.ClerkSaver;
-import home.vanusha.intexsoft.test.menu.impls.CountWiever;
-import home.vanusha.intexsoft.test.menu.impls.DetailsWiever;
-import home.vanusha.intexsoft.test.menu.impls.EmployeeEraser;
-import home.vanusha.intexsoft.test.menu.impls.PaymentWiever;
-import home.vanusha.intexsoft.test.menu.impls.PersonalWiever;
-import home.vanusha.intexsoft.test.menu.impls.WorkerSaver;
+import home.vanusha.intexsoft.test.menu.impls.ClerkSaverImpl;
+import home.vanusha.intexsoft.test.menu.impls.CountViewerImpl;
+import home.vanusha.intexsoft.test.menu.impls.DetailsViewerImpl;
+import home.vanusha.intexsoft.test.menu.impls.EmployeeEraserImpl;
+import home.vanusha.intexsoft.test.menu.impls.PaymentViewerImpl;
+import home.vanusha.intexsoft.test.menu.impls.PersonalViewerImpl;
+import home.vanusha.intexsoft.test.menu.impls.WorkerSaverImpl;
 import home.vanusha.intexsoft.test.menu.interfaces.ICommand;
 import home.vanusha.intexsoft.test.utils.Utils;
 
@@ -17,13 +17,13 @@ public class Test {
 
 	public static void main(String[] args) {
 		List<ICommand> menu = new ArrayList<ICommand>();
-		ICommand saveWorker = new WorkerSaver();
-		ICommand saveClerk = new ClerkSaver();
-		ICommand fireEmloyee = new EmployeeEraser();
-		ICommand countWiever = new CountWiever();
-		ICommand showDetails = new DetailsWiever();
-		ICommand showPayments = new PaymentWiever();
-		ICommand showList = new PersonalWiever();
+		ICommand saveWorker = new WorkerSaverImpl();
+		ICommand saveClerk = new ClerkSaverImpl();
+		ICommand fireEmloyee = new EmployeeEraserImpl();
+		ICommand countWiever = new CountViewerImpl();
+		ICommand showDetails = new DetailsViewerImpl();
+		ICommand showPayments = new PaymentViewerImpl();
+		ICommand showList = new PersonalViewerImpl();
  		menu.add(saveWorker);
 		menu.add(saveClerk);
 		menu.add(fireEmloyee);

@@ -3,7 +3,7 @@ package home.vanusha.intexsoft.test.menu.impls;
 import home.vanusha.intexsoft.test.menu.interfaces.ICommand;
 import home.vanusha.intexsoft.test.utils.Utils;
 
-public class EmployeeEraser implements ICommand{
+public class EmployeeEraserImpl implements ICommand{
 
 	@Override
 	public void execute() {

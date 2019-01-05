@@ -6,7 +6,7 @@ import home.vanusha.intexsoft.test.entities.Worker;
 import home.vanusha.intexsoft.test.menu.interfaces.ICommand;
 import home.vanusha.intexsoft.test.utils.Utils;
 
-public class PaymentWiever implements ICommand {
+public class PaymentViewerImpl implements ICommand {
 
 	@Override
 	public void execute() {

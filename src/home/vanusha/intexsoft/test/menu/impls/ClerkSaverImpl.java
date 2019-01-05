@@ -4,7 +4,7 @@ import home.vanusha.intexsoft.test.entities.Clerk;
 import home.vanusha.intexsoft.test.menu.interfaces.ICommand;
 import home.vanusha.intexsoft.test.utils.Utils;
 
-public class ClerkSaver implements ICommand {
+public class ClerkSaverImpl implements ICommand {
 	@Override
 	public void execute() {
 		if (Utils.getRepository().size() == Utils.getStoreLimit()) {
